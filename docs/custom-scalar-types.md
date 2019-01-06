@@ -26,6 +26,7 @@ The query engine also provides support for a few more extended scalar types.
 | Url      | Url                                                         |
 | DateTime | ISO‐8601 date time                                          |
 | Date     | ISO‐8601 date                                               |
+| Uuid     | GUID                                                        |
 | Time     | ISO‐8601 time                                               |
 
 To use these types, they must be registered during schema configuration. You can choose to register all extended types at once.
